@@ -32,8 +32,8 @@ class App extends React.Component{
       return(
         <ScrollView>
         {/* upper */}
-          <View >
-            <LinearGradient style={this.style.upper} start={{x:0,y:0}} end={{x:1,y:2}} colors={['#e34','#00f']}>
+          <View style={this.style.upper}>
+            <LinearGradient style={this.style.uppert} start={{x:0,y:0}} end={{x:1,y:2}} colors={['#e34','#00f']}>
               <Text style={{color:'white',fontStyle:'italic',textAlign:'center'}}>
                 React Native Workshop Day 2
               </Text>
@@ -90,11 +90,12 @@ clickHacker=function(){
 
 }
   style=StyleSheet.create({
-    upper:{  
+    uppert:{  
       height:Dimensions.get('window').height/4,
       borderWidth:5,
       
     },
+
     lower:{
      padding:12,
       // height:3*(Dimensions.get('window').height/4),
@@ -119,13 +120,13 @@ clickHacker=function(){
     },
     image:{
       alignSelf:'center',
-      marginTop:Dimensions.get('window').height/9,
+      marginTop:Dimensions.get('window').width/8,
       height:150,
       width:150,
     
       borderRadius:7,
       borderWidth:2,
-
+      backgroundColor:'red',
       borderColor:'black',
     },
     touchButton:{
