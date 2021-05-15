@@ -33,14 +33,16 @@ import Login from './src/Login';
 import Signup from './src/Signup';
 import Forget from './src/Forget';
 import Main from './src/Main';
-
+import Terms from './src/Terms';
 const Stack=createStackNavigator();
 export default function(){
 
   return(
     <NavigationContainer >
-      <Stack.Navigator  initialRouteName='Login' headerMode={false}>
+      <Stack.Navigator  initialRouteName='Main' headerMode={false}>
+        
         <Stack.Screen component={Login} name='Login' />
+        <Stack.Screen component={Terms} name='Terms' />
         <Stack.Screen component={Signup} name='Signup' />
         <Stack.Screen component={Forget} name='Forget' />
         <Stack.Screen component={Main} name='Main' />
