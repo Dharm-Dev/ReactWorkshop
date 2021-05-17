@@ -7,3 +7,5 @@
 ### Day3: Building Login App and use of NavigationContainer, Stack screens and many more. 
 ### Day4: Upgrade Login App and use of states, navigation params, Field validation and many more. 
 ### Day5: ToDo app using functional component as well as use of hooks (useState). we can add new task in the list and we are able to delete the entire list by just a click of a button or we can delete a particular element from the list.
+### Day6:build Test_API app and use of Api in our React Native App.
+## Workshop Final Project to be submitted before wednesday. 
